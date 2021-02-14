@@ -1,0 +1,119 @@
+body {
+	background-image: Url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_938993594_401542.jpg);
+	font-size: 100%;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	margin: 0;
+	padding: 30px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+header img {
+	width: 70px;
+	height: auto;
+}
+
+main {
+	clear: both;
+}
+
+h1 {
+	font-family: "Pacifico|Shadows+Into+Light", Arial, sans-serif;
+	margin: 0 0 0 10px;
+	font-size: 2em;
+}
+header h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-top: 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 400;
+	padding: .5em;
+	color: white;
+	background-color: rgba(0,0,0,.6);
+}
+
+.banner {
+	padding: 2em 5em;
+	background-color: 000000;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+
+form {
+	width: 80%;
+	max-width: 800px;
+	background-color: white;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+form .note {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.selection-container {
+	display: inline-block;
+}
+
+fieldset {
+	border: 1px solid #333;
+	margin: 1em;
+}
+legend {
+	font-size: 75%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+fieldset div {
+	margin-bottom: 0.5em;
+}
+div label {
+	display: block;
+	width: 140px;
+	float: left;
+	padding-right: 1em;
+	text-align: right;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+}
+
+label {
+	color: #4d4d4d;
+}
+
+button {
+	background-color: #2980B9;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem;
+	text-align: center;
+	width: 200px;
+}
+
+.message {
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
